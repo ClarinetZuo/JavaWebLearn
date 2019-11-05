@@ -27,14 +27,12 @@ public class UpdateBookServlet extends HttpServlet {
             if (null != isbn && null != bookName && null != price && null != bookDao) {
                 Book book = new Book(Integer.valueOf(isbn), bookName, Integer.valueOf(price));
                 if (null != book) {
-                    System.out.println("修改成功---");
                     bookDao.update(book);
                 }
             }
         }
         // 重定向
         if (null != resp){
-            System.out.println("重定向开始---");
             resp.sendRedirect("bookList.do");
         }
     }
