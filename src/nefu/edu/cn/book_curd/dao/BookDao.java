@@ -1,7 +1,7 @@
-package nefu.edu.cn.exer.dao;
+package nefu.edu.cn.book_curd.dao;
 
 import com.oracle.jdbc.util.Dao;
-import nefu.edu.cn.exer.vo.Book;
+import nefu.edu.cn.book_curd.vo.Book;
 
 import java.util.List;
 

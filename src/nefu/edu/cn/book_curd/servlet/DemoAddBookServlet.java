@@ -1,4 +1,4 @@
-package nefu.edu.cn.exer.servlet;
+package nefu.edu.cn.book_curd.servlet;
 
 import nefu.edu.cn.zjh.dao.BookDao;
 import nefu.edu.cn.zjh.vo.Book;

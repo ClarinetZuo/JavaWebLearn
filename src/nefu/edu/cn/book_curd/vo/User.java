@@ -1,4 +1,4 @@
-package nefu.edu.cn.exer.vo;
+package nefu.edu.cn.book_curd.vo;
 
 /**
  * author:Zuo Junhao

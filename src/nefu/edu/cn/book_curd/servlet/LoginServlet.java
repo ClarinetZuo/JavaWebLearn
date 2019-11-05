@@ -1,7 +1,7 @@
-package nefu.edu.cn.exer.servlet;
+package nefu.edu.cn.book_curd.servlet;
 
-import nefu.edu.cn.exer.dao.UserDao;
-import nefu.edu.cn.exer.vo.User;
+import nefu.edu.cn.book_curd.dao.UserDao;
+import nefu.edu.cn.book_curd.vo.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
