@@ -8,6 +8,30 @@
   <component name="ChangeListManager">
     <list default="true" id="29a35a94-960c-418f-9756-c7f68a01138a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/dao/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/servlet/BookListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/servlet/DeleteBookServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/servlet/DemoAddBookServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/servlet/EditBookServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/servlet/UpdateBookServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/vo/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/WEB-INF/classes/nefu/edu/cn/exer/vo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/BookListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/BookListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/ReadMe.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/dao/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/servlet/BookListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/servlet/DeleteBookServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/servlet/DemoAddBookServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/servlet/EditBookServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/servlet/UpdateBookServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/vo/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/nefu/edu/cn/exer/vo/User.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,90 +46,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="567">
-                <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/dao/BookDao.java">
+        <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/BookListServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="244">
+              <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletRequestWrapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#2918#2919#0" expanded="true" />
+                <element signature="e#2983#2984#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/BookListServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/EditBookServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/UpdateBookServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/ServletRequest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/ServletRequestWrapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/vo/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/addBook.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -164,6 +139,9 @@
         <option value="$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/EditBookServlet.java" />
         <option value="$PROJECT_DIR$/src/nefu/edu/cn/exer/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/UpdateBookServlet.java" />
+        <option value="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/BookListServlet.java" />
       </list>
     </option>
   </component>
@@ -228,7 +206,7 @@
               <item name="nefu" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="exer" type="462c0819:PsiDirectoryNode" />
+              <item name="book_curd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaWebLearn" type="b2602c69:ProjectViewProjectNode" />
@@ -237,8 +215,43 @@
               <item name="nefu" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="exer" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="book_curd" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="javax.servlet.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="JavaWebLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="javax.servlet.jar" type="ab9368bb:PsiFileNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="javax.servlet.jar" type="ab9368bb:PsiFileNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebLearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="javax.servlet.jar" type="ab9368bb:PsiFileNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -510,18 +523,18 @@
       <workItem from="1572655466464" duration="11070000" />
       <workItem from="1572739384605" duration="4664000" />
       <workItem from="1572832434135" duration="10960000" />
-      <workItem from="1572913579104" duration="7394000" />
+      <workItem from="1572913579104" duration="9894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55217000" />
+    <option name="totallyTimeSpent" value="57717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.469657" visible="true" weight="0.4099147" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.469657" weight="0.4099147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -531,13 +544,13 @@
       <window_info id="Web" order="7" sideWeight="0.530343" side_tool="true" weight="0.4099147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5862445" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5862445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969433" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -556,7 +569,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.469657" visible="true" weight="0.4099147" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.469657" weight="0.4099147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -566,7 +579,7 @@
       <window_info id="Web" order="7" sideWeight="0.530343" side_tool="true" weight="0.4099147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5862445" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5862445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -625,20 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletRequestWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -802,7 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/vo/User.java">
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/vo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
@@ -834,7 +833,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
@@ -845,24 +844,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/demo_addBook.html" />
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/DeleteBookServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/DeleteBookServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/DemoAddBookServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/DemoAddBookServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -901,7 +893,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/vo/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/vo/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
@@ -922,14 +914,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/BookListServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/EditBookServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/EditBookServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
@@ -943,14 +928,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/servlet/UpdateBookServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/UpdateBookServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/ReadMe.md">
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="567">
@@ -960,15 +945,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/exer/dao/BookDao.java">
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/dao/BookDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="783">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#598#599#0" expanded="true" />
             <element signature="e#634#635#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletRequestWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+          <folding>
+            <element signature="e#2918#2919#0" expanded="true" />
+            <element signature="e#2983#2984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/BookListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
         </state>
       </provider>
     </entry>
