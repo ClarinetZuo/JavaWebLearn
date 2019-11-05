@@ -13,6 +13,12 @@ public class Book {
 
     }
 
+    public Book(Integer isbn, String bookName, Integer price) {
+        this.isbn = isbn;
+        this.bookName = bookName;
+        this.price = price;
+    }
+
     @Override
     public String toString() {
         return "Book{" +

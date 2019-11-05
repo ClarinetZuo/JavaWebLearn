@@ -48,6 +48,7 @@ public class BookListServlet extends HttpServlet {
             out.println("</td>");
             out.println("<td>");
             out.println("<a href='deleteBook.do?isbn="+list.get(i).getIsbn()+"'>删除</a>");
+            out.println("&nbsp;|&nbsp;<a href='editBook.do?isbn="+list.get(i).getIsbn()+"'>编辑</a>");
             out.println("</td>");
             out.println("</tr>");
         }

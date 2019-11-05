@@ -22,4 +22,12 @@ public class BookDao {
     public void delete(Integer isbn){
         Dao.executeSql("delete from book where isbn=?",isbn);
     }
+
+    public Book getBookById(Integer isbn){
+        return Dao.queryOne("select * from book where isbn=?",Book.class,isbn);
+    }
+
+    public void update(Book book){
+        Dao.executeSql("update book set bookName=?,price=? where isbn=?",book.getBookName(),book.getPrice(),book.getIsbn());
+    }
 }
