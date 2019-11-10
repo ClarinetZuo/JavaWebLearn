@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
             System.out.println("最大间隔时间："+session.getMaxInactiveInterval());
             System.out.println("Session的创建时间："+session.getCreationTime());
 //            session.setMaxInactiveInterval(30);
-//            System.out.println("最大间隔时间："+session.getMaxInactiveInterval());
+            System.out.println("最大间隔时间："+session.getMaxInactiveInterval());
 
             session.setAttribute("user",user);
             response.sendRedirect("bookList.do");
