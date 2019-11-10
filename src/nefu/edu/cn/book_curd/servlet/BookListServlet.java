@@ -28,6 +28,8 @@ public class BookListServlet extends HttpServlet {
 
         resp.setContentType("text/html;charset=UTF-8");
 
+        // test
+
         PrintWriter out = resp.getWriter();
         User user = (User) session.getAttribute("user");
         Cookie[] cookies = req.getCookies();
