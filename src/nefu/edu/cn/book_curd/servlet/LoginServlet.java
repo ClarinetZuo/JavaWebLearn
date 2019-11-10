@@ -5,10 +5,7 @@ import nefu.edu.cn.book_curd.vo.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.util.Enumeration;
 
@@ -22,6 +19,7 @@ public class LoginServlet extends HttpServlet {
         UserDao userDao = new UserDao();
         String userName = request.getParameter("userName");
         String password = request.getParameter("password");
+        System.out.println("输入的密码"+password);
         User user = userDao.getUser(userName, password);
         if (null != user) {
             // 登录成功
@@ -34,6 +32,21 @@ public class LoginServlet extends HttpServlet {
             System.out.println("最大间隔时间："+session.getMaxInactiveInterval());
 
             session.setAttribute("user",user);
+
+
+            //1. create,addCookie,getCookies
+            String maxAge = request.getParameter("maxage");
+            if (null != maxAge){
+                Cookie cookie = new Cookie("userName1",user.getUserName());
+                cookie.setMaxAge(Integer.valueOf(maxAge));
+                Cookie cookie1 = new Cookie("password",password);
+
+                cookie1.setMaxAge(Integer.valueOf(maxAge)); // 最大存活15天
+                response.addCookie(cookie);
+                response.addCookie(cookie1);
+            }
+
+
             response.sendRedirect("bookList.do");
         } else {
             // 登录失败
