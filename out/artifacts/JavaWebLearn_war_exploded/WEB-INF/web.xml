@@ -30,5 +30,26 @@
     <session-config>
         <session-timeout>20</session-timeout>
     </session-config>
+<!--    <servlet>-->
+<!--        <servlet-name>configServlet</servlet-name>-->
+<!--        <servlet-class>nefu.edu.cn.book_curd.servlet_conf.servlet.ConfigServlet</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>userName</param-name>-->
+<!--            <param-value>root</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>password</param-name>-->
+<!--            <param-value>root</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>url</param-name>-->
+<!--            <param-value>jdbc:mysql://localhost:3306/zjhdb</param-value>-->
+<!--        </init-param>-->
+<!--        <load-on-startup>1</load-on-startup>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>configServlet</servlet-name>-->
+<!--        <url-pattern>/config.do</url-pattern>-->
+<!--    </servlet-mapping>-->
     
 </web-app>

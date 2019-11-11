@@ -15,6 +15,7 @@
     <SOURCES>
       <root url="file://$PROJECT_DIR$/src" />
       <root url="jar://D:/resources/Java/jdk1.8.0_171/src.zip!/" />
+      <root url="jar://D:/resources/Java/jdk1.8.0_171/src.jar!/" />
     </SOURCES>
   </library>
 </component>
