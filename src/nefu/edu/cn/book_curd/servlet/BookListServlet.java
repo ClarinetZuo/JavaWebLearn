@@ -73,7 +73,7 @@ public class BookListServlet extends HttpServlet {
             req.setAttribute("user",user);
             out.println("<br/><table width='90%' border=1>");
             out.println("<tr><td>序号</td><td>isbn</td><td>书名</td><td>价格</td><td>操作</td></tr>");
-
+            out.println("<br/>登录次数："+req.getServletContext().getAttribute("count"));
             for (int i = 0; i < list.size(); i++) {
                 out.println("<tr>");
                 out.println("<td>");

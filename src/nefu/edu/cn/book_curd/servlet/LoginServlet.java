@@ -3,6 +3,7 @@ package nefu.edu.cn.book_curd.servlet;
 import nefu.edu.cn.book_curd.dao.UserDao;
 import nefu.edu.cn.book_curd.vo.User;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
@@ -45,6 +46,21 @@ public class LoginServlet extends HttpServlet {
                 response.addCookie(cookie);
                 response.addCookie(cookie1);
             }
+            // 获得上下文的两种方式
+            ServletContext servletContext = request.getServletContext();
+//            request.getSession().getServletContext();
+            String path = servletContext.getRealPath("/");
+            System.out.println(path);
+            String contextPath = servletContext.getContextPath();
+            System.out.println(contextPath);
+
+            // 统计登录次数
+            Integer count = (Integer)servletContext.getAttribute("count");
+            if (null == count){
+                count = 0;
+            }
+            count ++;
+            servletContext.setAttribute("count",count);
 
 
             response.sendRedirect("bookList.do");
