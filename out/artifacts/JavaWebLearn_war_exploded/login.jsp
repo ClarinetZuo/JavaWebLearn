@@ -1,3 +1,4 @@
+<%@ page import="java.util.Date" %>
 <%--
   Created by IntelliJ IDEA.
   User: ClarinetZuo
@@ -5,7 +6,7 @@
   Time: 8:50
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="error.jsp" %>
 <br>
 <head>
     <title>Title</title>
@@ -18,6 +19,10 @@
     return a+b;
 }%>
 <body>
+
+
+<%@ include file="subPage.jsp"%>
+
     <form action="demoLogin.do" method="post">
     userName:<input type="text" name="userName"/></br>
     password:<input type="password" name="password"/></br>
@@ -30,5 +35,19 @@
             out.println("<input type='button' value='按钮'/><br/>");
         }
     %>
+    <%
+        int j = 9;
+        i++;
+        j++;
+    %>
+    <%
+        session.setAttribute("name","张继科");
+    %>
+    <br/>
+    i:<%=i%><br/>
+    j:<%=j%><br/>
+
+    当前时间:<%=new Date()%><br/>
+
 </body>
 </html>

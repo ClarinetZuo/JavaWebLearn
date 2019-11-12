@@ -12,5 +12,8 @@
   </head>
   <body>
   hello IDEA and Tomcat
+  <%=
+    session.getAttribute("name")
+  %>
   </body>
 </html>
