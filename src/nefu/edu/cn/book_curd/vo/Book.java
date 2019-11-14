@@ -37,6 +37,7 @@ public class Book {
     }
 
     public String getBookName() {
+        System.out.println("调用了getBookName方法");
         return bookName;
     }
 

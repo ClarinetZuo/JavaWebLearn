@@ -27,7 +27,8 @@
 ${userName}<br/>
 
 ${sessionScope.book.isbn}<br/>
-${sessionScope.book.bookName}<br/>
+${sessionScope.book.bookname}<br/>
 ${sessionScope.book.price}<br/>
+${names[0]}
 </body>
 </html>

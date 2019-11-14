@@ -25,9 +25,12 @@
 </table>
     <!-- 这是一个EL表达式-->
 ${userName}<br/>
+${book.price gt 100}<br/>
+    ${empty book.bookName}<br/>
+    ${book.price > 100 ? '不买' : '买'} <!-- 三目运算符-->
 
 ${sessionScope.book.isbn}<br/>
-${sessionScope.book.bookName}<br/>
+${sessionScope.book.bookname}<br/>
 ${sessionScope.book.price}<br/>
 ${names[0]}
 </body>
