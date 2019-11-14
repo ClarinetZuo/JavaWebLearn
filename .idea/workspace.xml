@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a35a94-960c-418f-9756-c7f68a01138a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/viewList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/bookList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bookList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/vo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/vo/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nefu/edu/cn/web1112/servlet/BookList1Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nefu/edu/cn/web1112/servlet/BookList1Servlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,17 +36,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/web1112/servlet/BookList1Servlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="44" selection-start-line="22" selection-end-line="44" />
+            <state relative-caret-position="190">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/viewList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#select#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/bookList.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -53,8 +66,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/vo/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="621">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#775#776#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +81,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -83,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nefu/edu/cn/zjh/BookServlet.java" />
         <option value="$PROJECT_DIR$/web/login.html" />
         <option value="$PROJECT_DIR$/src/nefu/edu/cn/zjh/ResponseServlet.java" />
         <option value="$PROJECT_DIR$/src/nefu/edu/cn/zjh/service/UserService.java" />
@@ -131,9 +146,10 @@
         <option value="$PROJECT_DIR$/web/admin/login.jsp" />
         <option value="$PROJECT_DIR$/web/b.jsp" />
         <option value="$PROJECT_DIR$/web/a.jsp" />
-        <option value="$PROJECT_DIR$/src/nefu/edu/cn/web1112/servlet/BookList1Servlet.java" />
-        <option value="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/vo/Book.java" />
         <option value="$PROJECT_DIR$/web/bookList.jsp" />
+        <option value="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/vo/Book.java" />
+        <option value="$PROJECT_DIR$/src/nefu/edu/cn/web1112/servlet/BookList1Servlet.java" />
+        <option value="$PROJECT_DIR$/web/viewList.jsp" />
       </list>
     </option>
   </component>
@@ -521,12 +537,12 @@
       <workItem from="1573431678969" duration="9643000" />
       <workItem from="1573518576394" duration="17856000" />
       <workItem from="1573604999745" duration="12582000" />
-      <workItem from="1573691381593" duration="4013000" />
+      <workItem from="1573691381593" duration="12856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138334000" />
+    <option name="totallyTimeSpent" value="147177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1058" extended-state="6" />
@@ -548,7 +564,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32969433" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3995633" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -567,7 +583,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4591029" visible="true" weight="0.3379531" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4591029" weight="0.3379531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -646,20 +662,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/addBook.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/ServletRequestWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpSession.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -989,24 +991,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/bookList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/vo/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="621">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#775#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/resources/Java/jdk1.8.0_171/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="286" column="15" selection-start-line="285" selection-start-column="12" selection-end-line="288" selection-end-column="29" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/web1112/servlet/BookList1Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="44" selection-start-line="22" selection-end-line="44" />
+        <state relative-caret-position="190">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bookList.jsp">
+    <entry file="file://$PROJECT_DIR$/web/viewList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="272">
+          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

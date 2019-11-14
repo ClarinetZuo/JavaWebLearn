@@ -31,9 +31,9 @@ ${book.price}<br/>
     <c:when test="${book.price > 50}">
         这本书的价格大于50元
     </c:when>
-    <c:when test="${book.price <= 50}">
-        这本书的价格小于等于50元
-    </c:when>
+    <c:otherwise>
+        两个分支
+    </c:otherwise>
 
 </c:choose>
 
