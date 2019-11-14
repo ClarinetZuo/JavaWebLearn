@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
     <title>Title</title>
@@ -23,12 +24,18 @@
     </tr>
     <%}%>
 </table>
-    <!-- 这是一个EL表达式-->
-${userName}<br/>
+${book.isbn}<br/>
+${book.bookName}<br/>
+${book.price}<br/>
+<c:choose>
+    <c:when test="${book.price > 50}">
+        这本书的价格大于50元
+    </c:when>
+    <c:when test="${book.price <= 50}">
+        这本书的价格小于等于50元
+    </c:when>
 
-${sessionScope.book.isbn}<br/>
-${sessionScope.book.bookname}<br/>
-${sessionScope.book.price}<br/>
-${names[0]}
+</c:choose>
+
 </body>
 </html>
