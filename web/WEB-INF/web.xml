@@ -28,7 +28,7 @@
         <url-pattern>/book.do</url-pattern>
     </servlet-mapping>
     <session-config>
-        <session-timeout>20</session-timeout>
+        <session-timeout>1</session-timeout>
     </session-config>
 <!--    <servlet>-->
 <!--        <servlet-name>configServlet</servlet-name>-->
@@ -51,5 +51,6 @@
 <!--        <servlet-name>configServlet</servlet-name>-->
 <!--        <url-pattern>/config.do</url-pattern>-->
 <!--    </servlet-mapping>-->
+
     
 </web-app>
