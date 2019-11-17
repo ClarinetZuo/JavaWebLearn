@@ -18,7 +18,7 @@ import java.io.IOException;
 public class AddBook1114Servlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setCharacterEncoding("UTF-8");
+//        req.setCharacterEncoding("UTF-8");
         BookDao bookDao = new BookDao();
         Book book = new Book(Integer.valueOf(req.getParameter("isbn")),req.getParameter("bookName"),Integer.valueOf(req.getParameter("price")));
 

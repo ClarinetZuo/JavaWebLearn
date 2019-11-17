@@ -19,7 +19,7 @@ public class UpdateBook1114Servlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        req.setCharacterEncoding("UTF-8");
+//        req.setCharacterEncoding("UTF-8");
         BookDao bookDao = new BookDao();
         Integer isbn = Integer.valueOf(req.getParameter("isbn"));
         String bookName = req.getParameter("bookName");
