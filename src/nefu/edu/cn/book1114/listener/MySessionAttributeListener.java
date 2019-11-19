@@ -3,17 +3,18 @@ package nefu.edu.cn.book1114.listener; /**
  * NEFU
  */
 
+import nefu.edu.cn.book1114.vo.User;
+
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
-import javax.servlet.http.HttpSessionAttributeListener;
-import javax.servlet.http.HttpSessionEvent;
-import javax.servlet.http.HttpSessionListener;
-import javax.servlet.http.HttpSessionBindingEvent;
+import javax.servlet.http.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 @WebListener()
 public class MySessionAttributeListener implements ServletContextListener,
         HttpSessionListener, HttpSessionAttributeListener {
+    static ConcurrentHashMap<String, HttpSession> map = new ConcurrentHashMap<>();
 
     // Public constructor is required by servlet spec
     public MySessionAttributeListener() {
@@ -55,24 +56,49 @@ public class MySessionAttributeListener implements ServletContextListener,
       /* This method is called when an attribute 
          is added to a session.
       */
-        System.out.println("本次在Session中添加的属性名："+sbe.getName());
-        System.out.println("本次在Session中添加的属性值："+sbe.getValue());
-        System.out.println("本次添加的SessionId"+sbe.getSession().getId());
+//        System.out.println("本次在Session中添加的属性名："+sbe.getName());
+//        System.out.println("本次在Session中添加的属性值："+sbe.getValue());
+//        System.out.println("本次添加的SessionId"+sbe.getSession().getId());
+        if (sbe.getName().equals("user")) {
+            User user = (User) sbe.getValue();
+            // 当前账户是否正在线
+            if (map.contains(user.getUserName())) {
+                map.remove(user.getUserName()).invalidate();
+            }
+
+            map.put(user.getUserName(), sbe.getSession());
+            System.out.println(user.getUserName()+"---------已上线");
+
+        }
     }
 
     public void attributeRemoved(HttpSessionBindingEvent sbe) {
       /* This method is called when an attribute
          is removed from a session.
       */
+        if (sbe.getName().equals("user")) {
+            User user = (User)sbe.getValue();
+            map.remove(user.getUserName());
+            System.out.println(user.getUserName()+"---------已下线");
+        }
     }
 
     public void attributeReplaced(HttpSessionBindingEvent sbe) {
       /* This method is invoked when an attibute
          is replaced in a session.
       */
-      // 下面两个是替换之前的session中的属性和值
-      sbe.getName();
-      sbe.getValue();
+        // 下面两个是替换之前的session中的属性和值
+        if (sbe.getName().equals("user")) {
+            User user = (User) sbe.getValue();
+            // 当前账户是否正在线
+            if (map.contains(user.getUserName())) {
+                map.remove(user.getUserName()).invalidate();
+            }
+
+            map.put(user.getUserName(), sbe.getSession());
+            System.out.println(user.getUserName()+"---------已上线");
+
+        }
 
     }
 }

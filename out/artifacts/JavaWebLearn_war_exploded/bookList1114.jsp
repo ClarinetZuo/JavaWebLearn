@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%--
   Created by IntelliJ IDEA.
   User: ClarinetZuo
@@ -12,6 +13,8 @@
     <title>Title</title>
 </head>
 <body>
+当前在线人数:${count}<br/>
+当前登录人数:${fn:length(loginMap)}<br/>
 <form action="addBook1114.jsp" method="post">
     <table border="1" width="90%" align="center">
         <caption>图书列表</caption>

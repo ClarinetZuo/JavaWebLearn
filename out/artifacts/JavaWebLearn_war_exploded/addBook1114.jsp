@@ -11,6 +11,7 @@
     <title>Title</title>
 </head>
 <body>
+当前在线人数:${count}<br/>
 <form action="addBook1114.do" method="post">
     <table>
         <tr>

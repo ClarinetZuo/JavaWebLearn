@@ -3,18 +3,24 @@ package nefu.edu.cn.book1114.listener; /**
  * NEFU
  */
 
+import nefu.edu.cn.book1114.listener.MySessionAttributeListener;
+
+import javax.servlet.ServletContextAttributeEvent;
+import javax.servlet.ServletContextAttributeListener;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
-import javax.servlet.http.*;
-import java.util.Date;
+import javax.servlet.http.HttpSessionAttributeListener;
+import javax.servlet.http.HttpSessionEvent;
+import javax.servlet.http.HttpSessionListener;
+import javax.servlet.http.HttpSessionBindingEvent;
 
 @WebListener()
-public class MySessionLifeListener implements ServletContextListener,
-        HttpSessionListener, HttpSessionAttributeListener {
+public class MyServletContextListener implements ServletContextListener, ServletContextAttributeListener
+        ,HttpSessionListener, HttpSessionAttributeListener {
 
     // Public constructor is required by servlet spec
-    public MySessionLifeListener() {
+    public MyServletContextListener() {
     }
 
     // -------------------------------------------------------
@@ -22,9 +28,14 @@ public class MySessionLifeListener implements ServletContextListener,
     // -------------------------------------------------------
     public void contextInitialized(ServletContextEvent sce) {
       /* This method is called when the servlet context is
-         initialized(when the Web application is deployed).
+         initialized(when the Web application is deployed). 
          You can initialize servlet context related data here.
       */
+        System.out.println("服务器已经完成初始化工作，目前工程部署在："+sce.getServletContext().getRealPath("/"));
+        // 向上下文中加入一个属性
+        sce.getServletContext().setAttribute("count",0);
+        sce.getServletContext().setAttribute("loginMap", MySessionAttributeListener.map);
+
     }
 
     public void contextDestroyed(ServletContextEvent sce) {
@@ -32,6 +43,8 @@ public class MySessionLifeListener implements ServletContextListener,
          (the Web application) is undeployed or 
          Application Server shuts down.
       */
+        System.out.println("服务器已经完成销毁，目前工程部署在："+sce.getServletContext().getRealPath("/"));
+
     }
 
     // -------------------------------------------------------
@@ -39,19 +52,10 @@ public class MySessionLifeListener implements ServletContextListener,
     // -------------------------------------------------------
     public void sessionCreated(HttpSessionEvent se) {
         /* Session is created. */
-        HttpSession session = se.getSession();
-        System.out.println("session已经创建，sessionId:"+session.getId()+":"+new Date(session.getCreationTime()));
-        System.out.println("session的超时时间："+se.getSession().getMaxInactiveInterval());
-        // 在线人数+1
-        int count = (Integer)session.getServletContext().getAttribute("count");
-        session.getServletContext().setAttribute("count",++count);
     }
 
     public void sessionDestroyed(HttpSessionEvent se) {
         /* Session is destroyed. */
-        System.out.println("session已销毁，id是"+se.getSession().getId()+"销毁时间："+new Date());
-        int count = (Integer)se.getSession().getServletContext().getAttribute("count");
-        se.getSession().getServletContext().setAttribute("count",--count);
     }
 
     // -------------------------------------------------------
@@ -74,5 +78,20 @@ public class MySessionLifeListener implements ServletContextListener,
       /* This method is invoked when an attibute
          is replaced in a session.
       */
+    }
+
+    @Override
+    public void attributeAdded(ServletContextAttributeEvent servletContextAttributeEvent) {
+
+    }
+
+    @Override
+    public void attributeRemoved(ServletContextAttributeEvent servletContextAttributeEvent) {
+
+    }
+
+    @Override
+    public void attributeReplaced(ServletContextAttributeEvent servletContextAttributeEvent) {
+
     }
 }
