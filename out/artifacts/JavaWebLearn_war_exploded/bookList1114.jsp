@@ -35,7 +35,7 @@
                 操作
             </td>
         </tr>
-        <c:forEach items="${list}" var="book" varStatus="state">
+        <c:forEach items="${pageInfo.list}" var="book" varStatus="state">
             <tr>
                 <td>${state.count}</td>
                 <td>${book.isbn}</td>
@@ -44,8 +44,24 @@
                 <td><a href="editBook1114.do?isbn=${book.isbn}">编辑</a>  <a href="deleteBook1114.do?isbn=${book.isbn}"> 删除</a></td>
             </tr>
         </c:forEach>
+        <tr>
+            <td colspan="5">
+                <div>
+                    总记录数：${pageInfo.recordCount }&nbsp;
+                    总页数：${pageInfo.pageCount }&nbsp;
+                    每页记录数：${pageInfo.pageSize }&nbsp;
+                    当前页数：${pageInfo.currentPage }&nbsp;
+                    当前URL：${pageInfo.url }&nbsp;&nbsp;
+                    <a class="urlaction" href="javascript:return void(0)" value="1">首页</a>
+                    <a class="urlaction" href="javascript:return void(0)" value="${pageInfo.pageCount}">尾页</a>
+                </div>
+            </td>
+        </tr>
     </table>
 <input type="submit" value="添加新图书">
+</form>
+<form action="&{pageInfo.url}" method="post">
+    <input type="hidden" name="currentPage"/>
 </form>
 </body>
 </html>

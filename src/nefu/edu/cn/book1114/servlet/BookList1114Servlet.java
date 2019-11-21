@@ -2,6 +2,7 @@ package nefu.edu.cn.book1114.servlet;
 
 import nefu.edu.cn.book1114.dao.BookDao;
 import nefu.edu.cn.book1114.vo.Book;
+import nefu.edu.cn.util.PageInfo;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -22,12 +23,13 @@ public class BookList1114Servlet extends HttpServlet {
         BookDao bookDao = new BookDao();
         // 获得请求
 
-
+        PageInfo pageInfo = new PageInfo(req);
+        bookDao.getBooksForPage(pageInfo);
         // 调用业务逻辑
-        List<Book> list = bookDao.getAll();
+//        List<Book> list = bookDao.getAll();
 
         // 转发请求
-        req.setAttribute("list",list);
+//        req.setAttribute("list",list);
         req.getRequestDispatcher("bookList1114.jsp").forward(req,resp);
     }
 }

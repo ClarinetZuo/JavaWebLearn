@@ -2,6 +2,7 @@ package nefu.edu.cn.book1114.dao;
 
 import com.oracle.jdbc.util.Dao;
 import nefu.edu.cn.book1114.vo.Book;
+import nefu.edu.cn.util.PageInfo;
 
 import java.util.List;
 
@@ -13,6 +14,17 @@ public class BookDao {
 
     public List<Book> getAll(){
         return Dao.query("select * from book order by isbn",Book.class);
+    }
+    /**
+      * @author ClarinetZuo
+      * @use as 分页查询
+      * @Date 2019/11/19 14:43
+      */
+    public void getBooksForPage(PageInfo pageInfo){
+        List list = Dao.query("select * from book order by isbn limit ?,?",Book.class,(pageInfo.getCurrentPage()-1)*pageInfo.getPageSize(),pageInfo.getPageSize());
+        pageInfo.setList(list);
+        Long count = (Long) Dao.queryOne("select count(*) from book")[0];
+        pageInfo.setRecordCount(count.intValue());
     }
 
     public Book getBookById(Integer isbn){
