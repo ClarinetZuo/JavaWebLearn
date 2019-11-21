@@ -11,5 +11,13 @@
         <name>Java并发编程之美</name>
         <price>100</price>
         <author>jjj</author>
+        <content>
+            <![CDATA[
+                我是一个java代码
+                int a = b<<c;
+
+
+            ]]>
+        </content>
     </book>
 </books>

@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a35a94-960c-418f-9756-c7f68a01138a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/book.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavaWebLearn_war_exploded/book.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/book.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="297">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -129,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/Test1.java" />
         <option value="$PROJECT_DIR$/web/demo_login.html" />
         <option value="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/nefu/edu/cn/book_curd/servlet/BookListServlet.java" />
@@ -180,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/nefu/edu/cn/book1114/dao/BookDao.java" />
         <option value="$PROJECT_DIR$/web/bookList1114.jsp" />
         <option value="$PROJECT_DIR$/web/book.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/myBook.dtd" />
       </list>
     </option>
   </component>
@@ -191,10 +191,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-632" />
-    <option name="y" value="-10" />
-    <option name="width" value="2423" />
-    <option name="height" value="1103" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -334,12 +334,14 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEAWorkSpace\JavaWebLearn\web\WEB-INF\lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IDEAWorkSpace\JavaWebLearn\lib" />
       <recent name="D:\IDEAWorkSpace\JavaWebLearn\src" />
+      <recent name="D:\IDEAWorkSpace\JavaWebLearn\web\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAWorkSpace\JavaWebLearn\web" />
+      <recent name="D:\IDEAWorkSpace\JavaWebLearn\web\WEB-INF" />
       <recent name="D:\IDEAWorkSpace\JavaWebLearn\web\WEB-INF\lib" />
     </key>
   </component>
@@ -363,7 +365,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.261" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.261" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/JavaWebLearn_war_exploded/userLogin.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/JavaWebLearn_war_exploded/book.xml" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -572,13 +574,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214201000" />
+    <option name="totallyTimeSpent" value="223046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43643263" weight="0.34919572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43643263" visible="true" weight="0.34919572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -613,7 +615,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43643263" weight="0.34919572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43643263" visible="true" weight="0.34919572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -623,7 +625,7 @@
       <window_info id="Web" order="7" sideWeight="0.56356734" side_tool="true" weight="0.27292112" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.42215988" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4957507" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4957507" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -737,13 +739,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/b.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/web1112/servlet/BooListServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/web1112/vo/Book.java" />
     <entry file="file://$PROJECT_DIR$/src/nefu/edu/cn/book_curd/vo/Book.java">
@@ -1098,13 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/userLogin.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1112,10 +1100,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/book.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/myBook.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/book.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
